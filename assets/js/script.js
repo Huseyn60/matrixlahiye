@@ -17,7 +17,18 @@ function topFunction() {
         window.addEventListener("load", function() {
             var loadingAnimation = document.getElementById("loading-animation");
             setTimeout(function() {
-                loadingAnimation.style.display = "none";
+                // loadingAnimation.style.display = "none";
                 document.body.style.overflow = "visible"; 
             }, 2000); 
         });
+        window.addEventListener("scroll", function() {
+          const cards = document.querySelectorAll(".card");
+          cards.forEach(card => {
+            const cardPosition = card.getBoundingClientRect().top;
+            const screenPosition = window.innerHeight;
+            if (cardPosition < screenPosition) {
+              card.style.animation = "scrollFadeIn 0.5s ease-out forwards";
+            }
+          });
+        });
+        

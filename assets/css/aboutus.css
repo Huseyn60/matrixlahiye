@@ -5,3 +5,42 @@
     width: 50%;
     height: 200px;
 }
+.cards img{
+    margin-left: 60px;
+    width: 275px;
+    height: 400px;
+}
+@media only screen and (max-width: 768px) {
+    header nav div ul {
+      flex-direction: column;
+    }
+    header nav div ul li {
+      margin-bottom: 10px;
+    }
+    header nav div ul li a {
+      padding: 5px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .yandiv {
+      margin-left: 0px;
+      text-align: center;
+    }
+    .yandiv2 {
+      margin: 0 auto;
+    }
+    .cards {
+      flex-direction: column;
+    }
+    .cards > div {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .secondsec{
+      display: none;  
+    }
+    .bgheader{
+      display: none;  
+    }
+  }

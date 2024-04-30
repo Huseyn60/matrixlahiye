@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Boighor</title>
     <link rel="stylesheet" href="../assets/css/aboutus.css">
     <link
     rel="icon"
@@ -49,7 +49,7 @@
                 <a class="navbar-brand" href="home.html"
                   ><img
                     style="margin-top: 9px; margin-left: 20px; margin-top: 5px;"
-                    src="../assets/img/3.png"
+                    src="../assets/img/icon.png"
                     alt="PrintSpace Logo"
                     width="120"
                   />
@@ -98,8 +98,8 @@
               </li>
               <li class="nav-item" style="position: absolute; right: 13%">
                 <a style="color: white;" class="nav-link" href="basket.html"
-                ><i class="fa-solid fa-cart-shopping" id="openModalLink" ></i
-                ></a>
+                ><i class="fa-solid fa-cart-shopping"></i><sup id="basketIcon" class="basket-count" style="color: #ce7852;">0</sup>
+              </a>
               </li>
               <li class="nav-item" style="position: absolute; right: 10%">
                 <a style="color: white;" class="nav-link" href="login.html"
@@ -118,12 +118,12 @@
       </header>
       <main>
         <section class="firstsec">
-            <center>
+            <center class="bgheader">
                 <h1 style="font-size: 30px; margin-top: 20px; font-family: sans-serif; font-weight: bolder;">OUR PROCESS SKILL OF HIGH</h1>
                 <p>the right people for your project</p>
             </center>
             <div class="secondsec">
-                <div class="yandiv yandiv1" style="margin-left: 30px;">
+                <div class="yandiv yandiv1" style="margin-left: 80px;">
                     <h4 style="font-family: sans-serif; font-weight: bolder;">WE HAVE SKILLS TO SHOW</h4>
                     <br>
                     <div class="progress" style="height: 10px;">
@@ -164,7 +164,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="yandiv yandiv2" style="margin-left: 20px;margin-top: 20px; margin-right: 10px; font-family: sans-serif">
+                <div class="yandiv yandiv2" style="margin-left: 100px;margin-top: 20px; margin-right: 10px; font-family: sans-serif">
                     <h4 style="font-weight: bolder; font-size: 25px; font-family: sans-serif;">BUY BOOK</h4>
                     <br>
                     <h4 style="font-weight: bolder; font-size: 25px; font-family: sans-serif">DIFFERENT KNOWLEDGE</h4>
@@ -181,8 +181,8 @@
                 <h1 style="font-size: 30px; margin-top: 20px;font-weight: bolder; font-family: sans-serif;">MEET OUR TEAM OF EXPERTS</h1>
                 <p style="margin-bottom: 30px;">the right people for your project</p>
             </center>
-            <div style="display: flex; margin-bottom: 140px;">
-                <div style="flex: 1; margin-left: 38px;">
+            <div style="display: flex; margin-bottom: 140px;" class="cards">
+                <div style="flex: 1; margin-left: 60px;">
                     <img src="https://htmldemo.net/boighor/boighor/images/about/team/1.jpg" alt="Resim 1">
                     <h4 style="margin-left: 150px; margin-bottom: 0px;">JOHN SMITH</h4>
                     <span style="margin-left: 165px; margin-bottom: 0px; display: block; margin-top: 10px;">Manager</span>
@@ -197,9 +197,9 @@
                 </div>
                 <div style="flex: 1;">
                     <img src="https://htmldemo.net/boighor/boighor/images/about/team/3.jpg" alt="Resim 3">
-                    <h4 style="margin-left: 120px; margin-bottom: 0px;">VICTORIA DOE</h4>
-                    <span style="margin-left: 150px; margin-bottom: 0px; display: block;margin-top: 10px;">Manager</span>
-                    <i class="fa-brands fa-twitter" style="margin-left: 125px; margin-right: 10px;margin-top: 10px;"></i><i class="fa-brands fa-telegram" style=" margin-right: 10px;"></i><i class="fa-brands fa-facebook" style=" margin-right: 10px;"></i><i class="fa-brands fa-linkedin" style=" margin-right: 10px;"></i><i class="fa-brands fa-pinterest" style=" margin-right: 10px;"></i>
+                    <h4 style="margin-left: 140px; margin-bottom: 0px;">VICTORIA DOE</h4>
+                    <span style="margin-left: 160px; margin-bottom: 0px; display: block;margin-top: 10px;">Manager</span>
+                    <i class="fa-brands fa-twitter" style="margin-left: 140px; margin-right: 10px;margin-top: 10px;"></i><i class="fa-brands fa-telegram" style=" margin-right: 10px;"></i><i class="fa-brands fa-facebook" style=" margin-right: 10px;"></i><i class="fa-brands fa-linkedin" style=" margin-right: 10px;"></i><i class="fa-brands fa-pinterest" style=" margin-right: 10px;"></i>
                 </div>
             </div>
         </section>
@@ -236,5 +236,6 @@
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
       <script src="../assets/js/about.js"></script>
+      <script src="../assets/js/script/dataread.js"></script>
 </body>
 </html>

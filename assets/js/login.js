@@ -6,7 +6,8 @@ function login() {
     var storedPassword = localStorage.getItem("password");
 
     if (email === storedEmail && password === storedPassword) {
-        window.location.href = "home.html";
+        localStorage.setItem("isLoggedIn", "true");
+        window.location.href = "shop.html";
     } else {
 
         alert("Invalid email or password. Please try again.");

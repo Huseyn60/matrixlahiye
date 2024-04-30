@@ -201,3 +201,189 @@ center .card{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+
+/* animasyalar */
+@keyframes fadeInFromBottom {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .card {
+    animation: fadeInFromBottom 0.5s ease-out forwards;
+  }
+  
+  @keyframes scrollFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes scroll {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .card {
+    opacity: 0;
+    animation: scroll 0.5s ease-out forwards;
+  }
+  
+  @keyframes scrollFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* animasiya 2 */
+  @keyframes fadeInFromBottom {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Kartlar için giriş animasyonunu ayarla */
+  .card {
+    animation: fadeInFromBottom 0.5s ease-out forwards;
+  }
+  
+  /* Scroll sırasında kartların giriş animasyonu */
+  @keyframes scrollFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Scroll animasyonu */
+  @keyframes scroll {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Kartlar için scroll animasyonunu ayarla */
+  .card {
+    opacity: 0;
+    animation: scroll 0.5s ease-out forwards;
+  }
+  
+  /* Sayfa aşağı kaydıkça kartlar için scrollFadeIn animasyonunu ayarla */
+  @keyframes scrollFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  /* Fade In/Out Animasyonu */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  /* Zoom In/Out Animasyonu */
+  @keyframes zoomIn {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes zoomOut {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(0);
+    }
+  }
+  
+  /* Yatay Kaydırma Animasyonu */
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideOutRight {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+  
+  /* Döndürme Animasyonu */
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+.card {
+    animation: fadeIn 1s ease forwards;
+  }

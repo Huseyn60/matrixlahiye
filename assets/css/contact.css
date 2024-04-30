@@ -43,7 +43,6 @@ table {
 }
  
 header nav{
-  height: 400px;
   background-size: cover;
   border: 0px;
   position: relative;
@@ -74,7 +73,7 @@ a{
 }
 
 .sol-kisim {
-  width: 63%;
+  width: 53%;
 }
 
 .sag-kisim {
@@ -152,19 +151,22 @@ footer .left-div, .right-div {
 @media only screen and (max-width: 768px) {
 header nav {
   height: auto; 
-}
+}}
+@media only screen and (max-width: 768px) {
+  ul li,.sendemail {
+    display: none;
+  }
 .kenar-paddingli-section {
   flex-direction: column; 
 }
 .sol-kisim, .sag-kisim {
   width: 100%; 
 }
+.sendemail{
+  display: none;
 }
-@media only screen and (max-width: 768px) {
-  header nav ul.nav {
-    display: none; 
-  }
 }
+
 input:focus-visible {
   outline: 0px !important;
 }
